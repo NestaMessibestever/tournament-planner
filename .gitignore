@@ -1,0 +1,15 @@
+# Go
+bin/
+*.exe
+
+# Node (for frontend later)
+node_modules/
+dist/
+build/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env

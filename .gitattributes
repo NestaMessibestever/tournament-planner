@@ -1,0 +1,49 @@
+# ===========================================================
+# Set consistent line endings
+# ===========================================================
+
+# All text files use Unix-style LF endings
+* text=auto eol=lf
+
+# ===========================================================
+# Backend: Go files
+# ===========================================================
+*.go     text eol=lf
+*.mod    text eol=lf
+*.sum    text eol=lf
+
+# SQL and JS migration scripts
+*.sql    text eol=lf
+*.js     text eol=lf
+
+# Shell scripts (if you use any in CI/CD)
+*.sh     text eol=lf
+
+# ===========================================================
+# Frontend: React + Tailwind + general web files
+# ===========================================================
+*.html   text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.jsx    text eol=lf
+*.json   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+
+# ===========================================================
+# Binary and media files (do NOT diff)
+# ===========================================================
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.ttf    binary
+*.woff   binary
+*.woff2  binary
+*.eot    binary
+*.zip    binary
+*.gz     binary
